@@ -97,7 +97,7 @@ const StoryPage = () => {
                 }
               </section>
 
-              <section className="px-2 py-1 flex items-center bg-[rgba(0,0,0,0.5)] z-10 gap-2">
+              <section className="px-2 py-1 flex items-center bg-[rgba(0,0,0,0.5)] text-white z-10 gap-2">
                 <Link className="flex items-center gap-2" to={`/${user}`}>
                   {
                     profilePic ? <img className='w-16 h-16 rounded-full p-2 bg-white dark:bg-dark-sec' src={`https://res.cloudinary.com/dofd4iarg/image/upload/v1690608655/${profilePic}.png`} alt="" /> : <p><MdAccountCircle className='text-slate-300 text-4xl' /></p>

@@ -1,6 +1,6 @@
 const Notification = ({ username, message, time }) => {
   return (
-    <li className='px-4 py-4 relative flex items-center justify-between bg-dark-sec mb-1'>
+    <li className='px-4 py-4 relative flex items-center justify-between dark:bg-dark-sec mb-1'>
       <p>
         <span className="text-blue-500">{username}</span> {message}
       </p>
